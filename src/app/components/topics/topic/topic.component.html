@@ -1,0 +1,32 @@
+<style>
+  control-messages {
+    color: #EB7077;
+  }
+</style>
+
+<div materialize>
+  <div class="row">
+    <div class="input-field col s6">
+      <input class="validate" type="text" id="topic_title" placeholder="Topic Title" [(ngModel)]="model.topic_title" [ngModelOptions]="{standalone: true}"
+      />
+      <label for="topic_title">Topic Title</label>
+    </div>
+  </div>
+
+  <button class="waves-effect waves-light btn" type="button" (click)="saveTopic()">{{btnText}}</button>
+
+  <!--
+    <label for="name">Name</label>
+  <input formControlName="name" id="name" />
+  <control-messages class="validate" [control]="userForm.controls.name"></control-messages>
+
+  <label for="email">Email</label>
+  <input formControlName="email" id="email" />
+  <control-messages [control]="userForm.controls.email"></control-messages>
+
+  <label for="profile">Profile Description</label>
+  <textarea formControlName="profile" id="profile"></textarea>
+  <control-messages [control]="userForm.controls.profile"></control-messages>
+
+  <button type="submit" [disabled]="!userForm.valid">Submit</button>-->
+</div>

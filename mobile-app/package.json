@@ -1,0 +1,19 @@
+{
+  "name": "OnlineTestApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-mixin": "^3.0.5",
+    "react-native": "^0.33.0",
+    "react-native-countdown": "0.0.3",
+    "react-native-htmlview": "^0.5.0",
+    "react-native-material-design": "^0.3.7",
+    "react-native-multiple-choice": "0.0.8",
+    "react-native-vector-icons": "^2.0.3",
+    "react-timer-mixin": "^0.13.3"
+  }
+}
